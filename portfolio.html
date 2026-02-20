@@ -24,13 +24,46 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
 
+  <script type="application/ld+json">
+    {
+    "@context": "https://schema.org", //ресурс schema.org
+    "@type": "BreadcrumbList", //TechSolutions Inc.
+               "itemListElement": [ //событие списка
+        {
+               "@type": "ListItem", //элемент списка
+                "position": 1, //нумерация позиций
+                "name":"Информационная страница программиста",
+                "item": "https://seo-program.vercel.app/"
+        },
+         {
+               "@type": "ListItem", //элемент списка
+                "position": 2, //нумерация позиций
+                "name":"новости",
+                "item": "https://seo-program.vercel.app/news.html/"
+        },
+        {
+               "@type": "ListItem", //элемент списка
+                "position": 3, //нумерация позиций
+                "name":"акции",
+                "item": "https://seo-program.vercel.app/stock.html"
+        },
+        {
+               "@type": "ListItem", //элемент списка
+                "position": 4, //нумерация позиций
+                "name":"портфолио",
+                "item": "https://seo-program.vercel.app/portfolio.html"
+        }
+        ]
+    }
+
+</script>
       <script type="application/ld+json">
     {
     "@context": "https://schema.org", //ресурс schema.org
     "@graph": [ //сразу несколько типов
         {//тип 1
             "@type": "WebPage", //описание что за сайт
-            "name": "Информационная страница портфолио",
+            "name": "Информационная страница программиста",
             "description": "Full-stack разработчик с 5-летним опытом создания современных веб-приложений",
             "url": "https://seo-program.vercel.app/"
         },
@@ -46,69 +79,10 @@
             "telephone": "+7 (999) 123-45-67",
             "email": "alex.ivanov@example.com"
 
-        },
-        {        
-            "@type": "BreadcrumbList", //TechSolutions Inc.
-               "itemListElement": [ //событие списка
-        {
-               "@type": "ListItem", //элемент списка
-                "position": 1, //нумерация позиций
-                "name":"Информационная страница программиста",
-                "item": "https://seo-program.vercel.app/"
-        },
-         {
-               "@type": "ListItem", //элемент списка
-                "position": 2, //нумерация позиций
-                "name":"новости",
-                "item": "https://seo-program.vercel.app/"
-        },
-        {
-               "@type": "ListItem", //элемент списка
-                "position": 3, //нумерация позиций
-                "name":"акции",
-                "item": "https://seo-program.vercel.app/stock.html"
-        },
-        {
-               "@type": "ListItem", //элемент списка
-                "position": 4, //нумерация позиций
-                "name":"портфолио",
-                "item": "https://seo-program.vercel.app/portfolio.html"
         }
         ]
-    },
-        {
-             "@type": "ItemList", //тип списков
-  "name": "Информационная страница программиста",
-  "itemListElement": [ //событие списка
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Информационная страница программиста",
-      "url":"https://seo-program.vercel.app/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Информационная страница программиста",
-      "url": "https://seo-program.vercel.app/"
-
-        }]},
-
-{
-          "@type": "FAQPage", //тип faq страницы
-  "mainEntity": [ //главные события
-    {
-      "@type": "Question", //тип вопрос ответ
-      "name": "Информационная страница портфолио",
-      "acceptedAnswer": { //решенный ответ
-        "@type": "Answer", //тип ответа
-        "text": "Перейдите в раздел 'Подбор портфолио' и выберите подходящее имя."
-      }
     }
-    ]
-    }]
-}
-    </script>
+</script>
 
     <style>
         * {
