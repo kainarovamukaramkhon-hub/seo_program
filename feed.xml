@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<!--Инфармация о канале-->
+<title>Информационная страница программиста</title>
+<link>https://seo-program.vercel.app</link>
+<description>Информационная страница программиста Александр Иванов</description>
+<language>ru</language>
+<lastBuildDate>Fri, 27 Feb 2026 10:44:00 +0300</lastBuildDate>
+
+<item>
+<title>Информационная страница программиста</title>
+<link>https://seo-program.vercel.app</link>
+<description>Информационная страница программиста Александр Иванов</description>
+<pubDate>Fri, 27 Feb 2026 10:44:00 +0300</pubDate>
+<guid>https://seo-program.vercel.app</guid>
+</item>
+<item>
+<title>новости</title>
+<link>https://seo-program.vercel.app/news.html</link>
+<description>новости</description>
+<pubDate>Fri, 27 Feb 2026 10:44:00 +0300</pubDate>
+<guid>https://seo-program.vercel.app/news.html</guid>
+</item>
+<item>
+<title>портфолио</title>
+<link>https://seo-program.vercel.app/portfolio.html</link>
+<description>портфолио</description>
+<pubDate>Fri, 27 Feb 2026 10:44:00 +0300</pubDate>
+<guid>https://seo-program.vercel.app/portfolio.html</guid>
+</item>
+<item>
+<title>акции</title>
+<link>https://seo-program.vercel.app/stock.html</link>
+<description>акции</description>
+<pubDate>Fri, 27 Feb 2026 10:44:00 +0300</pubDate>
+<guid>https://seo-program.vercel.app/stock.html</guid>
+</item>
+</channel>
+</rss>
